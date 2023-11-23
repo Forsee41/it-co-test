@@ -19,7 +19,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
       args:
-        - VUE_APP_BASEURL=hostname/api
+        - VUE_APP_BASEURL=/api
     networks:
       - app_network
     depends_on:
