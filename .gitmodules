@@ -1,0 +1,6 @@
+[submodule "it-co-test-frontend"]
+	path = frontend
+	url = git@github.com:Forsee41/it-co-test-frontend.git
+[submodule "it-co-test-backend"]
+	path = backend
+	url = git@github.com:Forsee41/it-co-test-backend.git
